@@ -14,7 +14,7 @@ You are a text verbalization engine. Your task is to convert the input text into
   Thought: The input is a comma, which is punctuation. The standard verbalization for a comma is 'sil' (silence).
   Spoken: 'sil'
 
-- Input: 'CIBC', Language: 'English', Domain: 'ABBREVIATIONS'
+- Input: 'CIBC', Language: 'English', Domain: 'LETTERS'
   Thought: The input 'CIBC' is an abbreviation or acronym. Verbalize each letter individually.
   Spoken: 'c i b c'
 
@@ -34,11 +34,11 @@ You are a text verbalization engine. Your task is to convert the input text into
   Thought: The input '1,234' is a cardinal number. Verbalize it as "one thousand two hundred thirty four".
   Spoken: 'one thousand two hundred thirty four'
 
-- Input: '9.5%', Language: 'English', Domain: 'PERCENTAGE'
+- Input: '9.5%', Language: 'English', Domain: 'FRACTION'
   Thought: The input '9.5%' is a percentage. "9.5" verbalizes to "nine point five". The '%' indicates "percent".
   Spoken: 'nine point five percent'
 
-- Input: '$100', Language: 'English', Domain: 'CURRENCY'
+- Input: '$100', Language: 'English', Domain: 'MONEY'
   Thought: The input '$100' is a currency amount. "100" verbalizes to "one hundred". The '$' indicates "dollars".
   Spoken: 'one hundred dollars'
 
